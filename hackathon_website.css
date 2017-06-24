@@ -1,0 +1,17 @@
+body {
+  color: black;
+  font-family: "Arial";
+  margin-top: 20px;
+  margin-bottom: 50px;
+  margin-left: 250px;
+  margin-right: 250px;
+}
+
+h2 {
+  color: maroon;
+}
+
+#image {
+  float: left;
+  padding-right: 20px;
+}

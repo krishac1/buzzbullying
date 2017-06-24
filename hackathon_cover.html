@@ -1,0 +1,49 @@
+<html>
+<head>
+  <title> Hackathon HTML Bullying Project</title>
+  <link href="hackathon_cover.css" type= "text/css" rel="stylesheet"/>
+</head>
+<body background= "https://wallpaperbrowse.com/media/images/Background-4.jpg"
+  bgcolor= "aquamarine">
+
+  <a href="hackathon_website.html" class="button">Home</a>
+
+    <h1><strong>Bee-Cause Someone Cares</strong></font></p>
+      <p class= "sideNote"> <u>Cupertino Residents ONLY</u></p> <br>
+    <p class= "paragraph"> Are you being bullied? Bullying is a global problem. We understand that bullying is serious and we are HERE to <strong>help you</strong>. Here at BUZZ you can report any problems you have to staff at your school, ANONYMOUSLY! Lets make a smart city, together.</p>
+   <img class= "beeImage" src="http://clipartix.com/wp-content/uploads/2016/05/Bumble-bee-clip-art-free-vector-in-open-office-drawing-svg-svg-3.png" height= "350" width= "450"></img>
+
+
+   <div style="position: relative; width: 1300px; height: 25px;">
+
+     <div style="position: absolute; bottom: 5px;">
+  <marquee>We are here to help STOP bullying. We are here to help STOP bullying. We are here to help STOP bullying.We are here to help STOP bullying.</marquee>
+</div>
+ </div>
+ <form class= "Button" action="hackathon_page2.html">
+ <input type="submit" value="CREATE YOUR BUZZ ACCOUNT" style="background:	#FFB6C1","cursor:pointer","width="48" height="48""/>
+
+ <script src="https://www.gstatic.com/firebasejs/4.1.3/firebase.js"></script>
+ <script>
+   var config = {
+     apiKey: "AIzaSyAATJjKwLnQErry65KUc1sBReH3LY3UrgI",
+     authDomain: "buzz-e0acd.firebaseapp.com",
+     databaseURL: "https://buzz-e0acd.firebaseio.com",
+     projectId: "buzz-e0acd",
+     storageBucket: "",
+     messagingSenderId: "455203991916"
+   };
+   firebase.initializeApp(config);
+ </script>
+<script>
+compliment = document.querySelector('h1')
+input = document.querySelector('input')
+button = document.querySelector('input')
+
+database = firebase.database()
+
+reference = database. ref()
+reference.push('Hey There')
+
+</body>
+</html>

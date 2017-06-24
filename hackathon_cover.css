@@ -1,0 +1,39 @@
+h1 {
+  font-size: 60px;
+  text-align: center;
+}
+
+div {
+  font-size: 25;
+}
+
+.sidenote{
+  font-size: 18px;
+  margin: -50px;
+}
+.paragraph {
+  font-size: 21px;
+margin-left: 280px;
+margin-right: 250px;
+  text-align: center;
+
+}
+
+.beeImage {
+margin-top: -0px;
+}
+input {
+  font-size: 30px;
+  width: 40%;
+      padding: 15px;
+      margin: 2px 0;
+      box-sizing: border-box;
+border-radius: 25px;
+margin-bottom: 10px;
+}
+a {
+    position: absolute;
+        top: 40px;
+        left: 60px;
+        font-size: 20px;
+}
